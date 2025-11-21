@@ -38,3 +38,18 @@ Process isolation fundamentals
 This project forced me to understand the fundamentals instead of hiding behind frameworks—and it changed how I think about system-level engineering.
 
 If you want to check it out or give feedback, I’m happy to share more details.
+
+commands to run 
+
+cd /mnt/c/Users/sarthak/Desktop/"docker lite" (directory of file)
+
+gcc -o docker-lite docker-lite.c (build the code)
+
+sudo ./docker-lite ./my-container-root /bin/bash (run shell)
+
+
+
+cd app
+python3 ChessMain.py (run ai chess bot inside of the container)
+
+
